@@ -12,6 +12,10 @@ This project is intended for **personal use only**, using it for redistribution 
 
 # Usage
 In order to use this script, you must have yt-dlp installed already.
-To use this script simply execute it with your preferred album as the argument, for example: musicdownloader.sh https://music.youtube.com/playlist?list=OLAK5uy_nZn_Fezc_VpL0Lcv6gsQbgCLyJFxYaByI&si=XXhVBXy2w3AgMDvz<br>
-You can download many albums at the same time by seperating their links, I recommend eclosing their links with double quotations to avoid running into problems with yt-dlp, ex.: musicdownloader.sh "https://music.youtube.com/playlist?list=OLAK5uy_n7E5__qzn48iGvPuuvVbohLFbdV7_hak0&si=BtrK-mtJe6vgUbL0" "https://music.youtube.com/playlist?list=OLAK5uy_k94LVc2EeARI2wsyPi7wKYoSIagSSVxl0&si=FYR5I4kROpjv6Im1"<br>
-It'll embed the already existing metadata from youtube, but in order to make sure the metadata is complete I suggest you use [Musicbrainz Picard](https://picard.musicbrainz.org/)
+
+## One Album
+To use this script simply execute it with your preferred album URL as the argument, for example: musicdownloader.sh https://music.youtube.com/playlist?list=OLAK5uy_nZn_Fezc_VpL0Lcv6gsQbgCLyJFxYaByI&si=XXhVBXy2w3AgMDvz<br><br>
+## Many Albums
+You can download many albums at the same time by seperating their links, I recommend eclosing their links with double quotations to avoid running into problems with yt-dlp, ex.: musicdownloader.sh "https://music.youtube.com/playlist?list=OLAK5uy_n7E5__qzn48iGvPuuvVbohLFbdV7_hak0&si=BtrK-mtJe6vgUbL0" "https://music.youtube.com/playlist?list=OLAK5uy_k94LVc2EeARI2wsyPi7wKYoSIagSSVxl0&si=FYR5I4kROpjv6Im1"<br><br>
+## Song Metadata
+The script will embed the already existing metadata from youtube, but in order to make sure the metadata is complete and consistent I suggest you use [Musicbrainz Picard](https://picard.musicbrainz.org/)
