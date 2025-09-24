@@ -19,5 +19,5 @@ Example: musicdownloader.sh https://music.youtube.com/playlist?list=OLAK5uy_nZn_
 ### Many Albums
 You can download many albums at the same time by seperating their links, I recommend eclosing their links with double quotations to avoid running into problems with yt-dlp.<br>
 Example: musicdownloader.sh "https://music.youtube.com/playlist?list=OLAK5uy_n7E5__qzn48iGvPuuvVbohLFbdV7_hak0&si=BtrK-mtJe6vgUbL0" "https://music.youtube.com/playlist?list=OLAK5uy_k94LVc2EeARI2wsyPi7wKYoSIagSSVxl0&si=FYR5I4kROpjv6Im1"<br><br>
-## Song Metadata
+### Song Metadata
 The script will embed the already existing metadata from youtube, but in order to make sure the metadata is complete and consistent I suggest you use [Musicbrainz Picard](https://picard.musicbrainz.org/)
